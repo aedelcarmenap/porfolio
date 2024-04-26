@@ -1,0 +1,45 @@
+.hobbies{
+    width: 100%;
+    text-align: center;
+   justify-content: center;
+   
+    }
+
+.contenedor-hobbies{
+    display: flex;
+    padding: 20px 30px;
+    gap:20px;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.caja-hobbies{
+    display:flex;
+    height: 230px;
+    width:140px;
+    background:#DCDCDC;
+  
+ 
+}
+.htmlh{
+   display:flex;
+   position:relative;
+   height:40px;
+   width:60px;
+   top:150px;
+   margin-left:3px; 
+}
+
+.html3{
+    display:flex;
+    position:relative;
+    top:200px;
+    margin-left:-50px; 
+    color:black;
+}
+
+
+
+

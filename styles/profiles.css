@@ -1,0 +1,110 @@
+.profiles{
+  display:flex;
+  padding: 30px 20px ;
+}
+   .contenedor{
+display:flex;
+flex-direction:column;
+
+}
+.foto-profile{
+  height: auto;
+  flex-direction:column;
+  padding: 10px 20px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:30px;
+}
+.cuerpo{
+  height: auto;
+  width: auto;
+  flex-direction:column;
+  padding: 20px 40px ;
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:20px;
+
+ }
+  
+h1{
+    font-size: xx-large;
+}
+p{
+  font-size: large; 
+  line-height: 1.5;
+}
+.foto{
+    height:200px;
+    width:200px;
+    padding: 30px auto ;
+    border-radius:100%;
+    gap:30px;
+}
+.redes{
+  display:flex;
+  padding:30px 30px;
+  text-align:center; 
+  color:black;
+  flex-direction:row;
+  width: 100%;
+  justify-content:space-between;
+  flex-wrap:wrap;   
+ }
+ .menu-github {
+  font-size:large;
+ }
+ .menu-linkedin{
+  font-size:large;
+ }
+ .menu-cv{
+  font-size:large;
+ }
+.menu-github:hover{
+  font-size: x-large;
+  color: #154580;
+  transition: 1s all;
+  cursor: pointer;
+ }
+ .menu-linkedin:hover{
+  font-size: x-large;
+  color:#154580;
+  transition: 1s all;
+  cursor: pointer;
+  }
+ .menu-cv:hover{
+font-size: x-large;
+color:#154580 ;
+transition: 1s all;
+cursor: pointer;
+ }
+
+
+@media  (min-width: 768px) {
+  .redes{
+    gap:100px;
+  }
+  .contenedor{
+  display:flex;
+  flex-direction:row;
+  padding-left:40px;
+  display: grid;
+  grid-template-columns:2fr 1fr;    
+  grid-template-areas: "cuerpo foto-profile ";
+   .cuerpo{
+     grid-area: cuerpo;
+  }
+  .foto-profile{
+     grid-area: foto-profile;
+  }
+ 
+  }
+
+ }
+
+ 
+
+
+ 

@@ -1,0 +1,87 @@
+
+.contacto{
+    display:flex;
+    text-align:center;
+    padding: 20px 30px;
+    align-items:center;
+    flex-direction:row;
+    justify-content:center;
+    background:#E5F1FF;
+
+}
+.conteiner-contacto{
+    display:flex;
+    padding: 10px 20px;
+    gap:10px;
+    flex-direction:column;
+    text-align:left;
+}
+
+.telefono{
+    display:none; 
+    height:80%
+}
+
+.text-cont{
+font-size:x-large;
+}
+
+.text-cont2{
+font-size:medium;
+}
+
+
+form {
+    margin: 20px auto;
+ 
+     }
+  
+  form label,
+  form legend {
+    display: block;
+    font-size: large;
+    margin: 0 0 10px;
+
+   
+  }
+  .input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 0px;
+    width: 80%;
+    
+  }
+  
+  .enviar {
+    width: 30%;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #154580;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+  }
+  
+  .enviar:hover {
+    background:blue;
+    transform: scale(1.2);
+  }
+  
+  table {
+    margin: 40px 40px;
+  }
+
+
+
+
+
+ @media  (min-width: 1024px) {
+    
+    .telefono{
+        display: flex;
+    }
+ 
+ }

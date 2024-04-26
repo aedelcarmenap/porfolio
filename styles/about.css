@@ -1,0 +1,31 @@
+
+.about{
+   height:auto;
+   width: 100%;
+   background:#E5F1FF;
+   padding: 20px 30px;
+   display:flex;
+   flex-direction:column;
+   gap:20px;
+
+}
+
+.about-caja{
+   width:100%;
+   padding: 30px 30px;
+   line-height: 1.5;
+   font-size:large;
+}
+
+h2{
+   font-size:xx-large;
+}
+
+@media  (min-width: 1024px) {
+   .about-caja{
+      width:70%;
+      padding: 20px 30px;
+ }
+
+}
+

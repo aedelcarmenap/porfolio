@@ -1,0 +1,44 @@
+.skills{
+width: 100%;
+padding: 30px 30px;
+text-align: center;
+justify-content: center;
+    }
+.contenedor-skills{
+    display: flex;
+    padding: 30px 30px;
+    gap:20px;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+ }
+
+.caja-skills{
+    display:flex;
+    height: 230px;
+    width:140px;
+    background:#DCDCDC;
+
+}
+
+.html{
+   display:flex;
+   position:relative;
+   height:40px;
+   width:60px;
+   top:150px;
+   margin-left:3px;  
+}
+
+.html2{
+    display:flex;
+    position:relative;
+    top:200px;
+    margin-left:-50px; 
+    color:black;
+}
+
+
+
