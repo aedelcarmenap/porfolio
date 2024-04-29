@@ -56,16 +56,18 @@
         <h1>Skills</h1>
         <ul class="contenedor-skills">
             <li class="caja-skills"><img class="html" src="imagenes/html5.svg"><a class="html2">Html 5</a></li>
-            <li class="caja-skills"><img class="html" src="imagenes/file-code-solid.svg"><a class="html2">css</a></li>
+            <li class="caja-skills"><img class="html" src="imagenes/css.svg"><a class="html2">css</a></li>
             <li class="caja-skills"><img class="html" src="imagenes/js.svg"><a class="html2">Javascrip</a></li>
-            <li class="caja-skills"><img class="html" src="imagenes/node.svg"><a class="html2">Node JS</a></li>
+            <li class="caja-skills"><img class="html" src="imagenes/git.svg"><a class="html2">Git</a></li>
+            <li class="caja-skills"><img class="html" src="imagenes/github.svg"><a class="html2">GitHub</a></li>
         </ul>      
     <section class="hobbies" id="hobbies"> 
         <h1>Hobbies</h1>
         <ul class="contenedor-hobbies">
-            <li class="caja-hobbies"><img class="htmlh" src="imagenes/music-solid.svg"><a class="html3">Musica</a></li>
-            <li class="caja-hobbies"><img class="htmlh" src="imagenes/tv-solid.svg"><a class="html3">Peliculas</a></li>
+            <li class="caja-hobbies"><img class="htmlh" src="imagenes/youtube_music.svg"><a class="html3">Musica</a></li>
+            <li class="caja-hobbies"><img class="htmlh" src="imagenes/movie-web.svg"><a class="html3">Peliculas</a></li>
             <li class="caja-hobbies"><img class="htmlh" src="imagenes/utensils-solid.svg"><a class="html3">Cocinar</a></li>
+            <li class="caja-hobbies"><img class="htmlh" src="imagenes/whatsapp.svg"><a class="html3">Social</a></li>
             <li class="caja-hobbies"><img class="htmlh" src="imagenes/car-side-solid.svg"><a class="html3">Conducir</a></li>
         </ul>          
     </section>
@@ -95,8 +97,8 @@
             <h3>Challenge Oracle</h3>
             <p class="texto-but">Porfolio Profesional, Diseño Web Responsive Ajuste Automático para Computadoras, Tablet y Teléfonos Móviles</p> 
             <div class="but">
-            <a href="https://github.com/aedelcarmenap/encriptador.git"><button class="styled" type="button">Repositorio</button></a>
-            <a href="https://aedelcarmenap.github.io/encriptador/"><button class="styled" type="button">Pagina Web</button></a>
+            <a href="https://github.com/aedelcarmenap/porfolio.git"><button class="styled" type="button">Repositorio</button></a>
+            <a href="https://aedelcarmenap.github.io/porfolio/"><button class="styled" type="button">Pagina Web</button></a>
             </div>
         </div>
         </div>
@@ -120,7 +122,7 @@
 <!--contacto-->
 <section class="contacto" id="contacto">
         <div class="telefono">
-            <img class="img-contacto" src="imagenes/tel.png">
+            <img class="img-contacto" src="imagenes/3d-techny-email-marketing-and-newsletter-with-new-message-1.gif">
         </div>
         <div class="conteiner-contacto">
             <h1>Contacto</h1>
@@ -128,11 +130,19 @@
             <p class="text-cont2">Complete el siguente formulario y me pondré en contacto con usted lo antes posible.</p>
             <form>
                 <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido" class="input-padron" required placeholder="Adela Agudo Poncini"/>
+                <input 
+                type="text" 
+                minlength="3" maxlength="50"
+                id="nombreapellido" 
+                class="input-padron" 
+                required 
+                placeholder="Adela Agudo Poncini"
+                />
         
                 <label type="correoelectronico">Correo Electrónico</label>
                 <input
                   type="email"
+                  minlength="5"
                   id="correoelectronico"
                   class="input-padron"
                   required
@@ -142,6 +152,7 @@
                 <label for="asunto">Asunto</label>
                 <input
                   type="text"
+                  minlength="3" maxlength="50"
                   id="asunto"
                   class="input-padron"
                   required
@@ -150,6 +161,8 @@
         
                 <label for="mensaje">Mensaje</label>
                 <textarea
+                  type="text"
+                  minlength="5" maxlength="300"
                   cols="70"
                   rows="10"
                   id="mensaje"
@@ -158,7 +171,11 @@
                   placeholder="Mensaje"
                 ></textarea>
                 
-                <input type="submit" value="Enviar Formulario" class="enviar" />
+                <input 
+                type="submit" 
+                value="Enviar Formulario" 
+                class="enviar" 
+                data-boton-enviar/>
             </form>
           
         </div> 
@@ -169,7 +186,7 @@
     <p class="footer">Desarrollado por Adela Eugenia Agudo Poncini en el Año 2024</p>
     </div>  
 </footer>
-<script src="porf.js"></script>
+<script src="bton.js"></script>
 </body>
 </html>
 

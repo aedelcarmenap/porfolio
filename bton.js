@@ -1,12 +1,9 @@
-let numeroSecreto = 0;
-let intentos = 0;
-let listaNumerosSorteados = [];
-let numeroMaximo = 10;
+const campoDeFormulario= document.querySelectorAll("[required]");
 
+campoDeFormulario.forEach((campo)=>{
+    campo.addEventListener("blur",()=> verificarCampo(campo))
+});
 
-
-function asignarTextoElemento(elemento, texto) {
-    let elementoHTML = document.querySelector(elemento);
-    elementoHTML.innerHTML = texto;
-    return;
+function verificarCampo(campo){
+    console.log("Cambio", campo.id);
 }
