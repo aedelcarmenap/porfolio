@@ -131,6 +131,7 @@
             <form>
                 <label for="nombreapellido">Nombre y Apellido</label>
                 <input 
+                name="nombre"
                 type="text" 
                 minlength="3" maxlength="50"
                 id="nombreapellido" 
@@ -138,9 +139,11 @@
                 required 
                 placeholder="Adela Agudo Poncini"
                 />
+                <span class="mensaje-error"></span>
         
                 <label type="correoelectronico">Correo Electrónico</label>
                 <input
+                  name="email"
                   type="email"
                   minlength="5"
                   id="correoelectronico"
@@ -148,9 +151,11 @@
                   required
                   placeholder="email@dominio.com"
                 />
+                <span class="mensaje-error"></span>
         
                 <label for="asunto">Asunto</label>
                 <input
+                  name="asunto"
                   type="text"
                   minlength="3" maxlength="50"
                   id="asunto"
@@ -158,9 +163,11 @@
                   required
                   placeholder="Asunto"
                 />
+                <span class="mensaje-error"></span>
         
                 <label for="mensaje">Mensaje</label>
                 <textarea
+                  name="mensaje"
                   type="text"
                   minlength="5" maxlength="300"
                   cols="70"
@@ -170,7 +177,7 @@
                   required
                   placeholder="Mensaje"
                 ></textarea>
-                
+                <span class="mensaje-error"></span>
                 <input 
                 type="submit" 
                 value="Enviar Formulario" 
